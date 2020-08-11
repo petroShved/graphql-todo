@@ -5,10 +5,10 @@
   "main": "src/app.js",
   "scripts": {
     "start:dev": "nodemon --exec node src/app.js",
-    "start": "node src/app.js",
+    "start": "node ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Petro Shved",
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^2.16.1",
