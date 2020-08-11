@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "indent": ["error", 4],
+    "no-underscore-dangle" : ["off", {
+      "allow" : ["_id"]
+    }]
+  }
+}
